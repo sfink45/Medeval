@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F5B0AB0-D21C-4CFF-8A07-452012CDA5A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>frmMain.vb.My.MyApplication</StartupObject>
+    <RootNamespace>frmMain.vb</RootNamespace>
+    <AssemblyName>Medeval.vb</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Medeval.vb.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Medeval.vb.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\battleaxe.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\CData.vb" />
+    <Compile Include="Dialogs\CDialogNode.vb" />
+    <Compile Include="Dialogs\CDialogTree.vb" />
+    <Compile Include="Forms\frmBattle.Designer.vb">
+      <DependentUpon>frmBattle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBattle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEpilouge.Designer.vb">
+      <DependentUpon>frmEpilouge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEpilouge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSplash.Designer.vb">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Item\CItem.vb" />
+    <Compile Include="Item\Items\CAmandla.vb" />
+    <Compile Include="Item\Items\CCeleritas.vb" />
+    <Compile Include="Item\Items\CUzima.vb" />
+    <Compile Include="Item\Items\CZufall.vb" />
+    <Compile Include="Level\Levels\CFinalLevel.vb" />
+    <Compile Include="Level\Levels\CLevelIntro.vb" />
+    <Compile Include="Mobs\CMob.vb" />
+    <Compile Include="Mobs\Enemies\CKing.vb" />
+    <Compile Include="Mobs\NPC\COldMan.vb" />
+    <Compile Include="Item\Items\CPotion.vb" />
+    <Compile Include="Level\CRoom.vb" />
+    <Compile Include="Mobs\Enemies\CStartGuard.vb" />
+    <Compile Include="Game\CGame.vb" />
+    <Compile Include="Level\CLevel.vb" />
+    <Compile Include="Mobs\CPlayer.vb" />
+    <Compile Include="Forms\frmCredits.Designer.vb">
+      <DependentUpon>frmCredits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCredits.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEncounter.Designer.vb">
+      <DependentUpon>frmEncounter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEncounter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGameWindow.Designer.vb">
+      <DependentUpon>frmGameWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmGameWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInventory.Designer.vb">
+      <DependentUpon>frmInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLoadGame.Designer.vb">
+      <DependentUpon>frmLoadGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLoadGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmNewGame.Designer.vb">
+      <DependentUpon>frmNewGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmNewGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\CGameState.vb" />
+    <Compile Include="Mobs\NPC\CPrisoner.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frmBattle.resx">
+      <DependentUpon>frmBattle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCredits.resx">
+      <DependentUpon>frmCredits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEncounter.resx">
+      <DependentUpon>frmEncounter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGameWindow.resx">
+      <DependentUpon>frmGameWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInventory.resx">
+      <DependentUpon>frmInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLoadGame.resx">
+      <DependentUpon>frmLoadGame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmNewGame.resx">
+      <DependentUpon>frmNewGame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEpilouge.resx">
+      <DependentUpon>frmEpilouge.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSplash.resx">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Graphics\oldman.jpg" />
+    <None Include="Resources\Audio\Level1\Room3\notsavedprisoner.wav" />
+    <None Include="Resources\Graphics\prisoner.jpg" />
+    <None Include="Resources\Graphics\king.png" />
+    <None Include="Resources\Graphics\guard.jpg" />
+    <None Include="Resources\Audio\Level1\Room3\hero.wav" />
+    <None Include="Resources\Audio\Level1\Room1\journeyseeyouwell.wav" />
+    <None Include="Resources\Audio\Level1\Room2\payforyourlies.wav" />
+    <None Include="Resources\Audio\LevelFinal\youratyrant.wav" />
+    <None Include="Resources\Audio\LevelFinal\urbintbs.wav" />
+    <None Include="Resources\Audio\LevelFinal\ulure.wav" />
+    <None Include="Resources\Audio\LevelFinal\ulimsavior.wav" />
+    <None Include="Resources\Audio\Level1\Room3\savedprisoner.wav" />
+    <None Include="Resources\Audio\LevelFinal\rldniim.wav" />
+    <None Include="Resources\Audio\LevelFinal\oldmansoulpower.wav" />
+    <None Include="Resources\Audio\LevelFinal\oldmansaiddes.wav" />
+    <None Include="Resources\Audio\Level1\Room3\moral_scene_des.wav" />
+    <None Include="Resources\Audio\LevelFinal\ironfistfreedom.wav" />
+    <None Include="Resources\Audio\Level1\Room2\greatmount.wav" />
+    <None Include="Resources\Audio\LevelFinal\final_scene_des.wav" />
+    <None Include="Resources\Audio\Level1\Room3\dontworry.wav" />
+    <None Include="Resources\Audio\Level1\Room2\bloodyhell.wav" />
+    <None Include="Resources\Audio\Level1\Room1\beyondimagination.wav" />
+    <None Include="Resources\Audio\Level1\Room2\thegroundthrists.wav" />
+    <Content Include="Resources\battleaxe.ico" />
+    <None Include="Resources\Audio\EndGame\PosMorNotKillKing.wav" />
+    <None Include="Resources\Audio\EndGame\PosMorKillKing.wav" />
+    <None Include="Resources\Audio\LevelFinal\oldasdust.wav" />
+    <None Include="Resources\Audio\LevelFinal\ohWhyisthat.wav" />
+    <None Include="Resources\Audio\LevelFinal\notinnocent.wav" />
+    <None Include="Resources\Audio\EndGame\negMorNotKillKing.wav" />
+    <None Include="Resources\Audio\EndGame\negMorKillKing.wav" />
+    <None Include="Resources\Audio\LevelFinal\muchlikeabook.wav" />
+    <None Include="Resources\Audio\LevelFinal\moreeffortintoseers.wav" />
+    <None Include="Resources\Audio\LevelFinal\curedofdel.wav" />
+    <None Include="Resources\Audio\LevelFinal\youaretheone.wav" />
+    <None Include="Resources\Audio\LevelFinal\whyshouldkinfall.wav" />
+    <None Include="Resources\Audio\LevelFinal\notatyrant.wav" />
+    <None Include="Resources\Audio\LevelFinal\beenexpectingyou.wav" />
+    <None Include="Resources\Audio\Level1\Room3\sosorry.wav" />
+    <None Include="Resources\Audio\Level1\Room2\merelypb.wav" />
+    <None Include="Resources\Audio\Level1\Room1\conduithistory.wav" />
+    <None Include="Resources\Audio\Level1\Room1\bckfu.wav" />
+    <None Include="Resources\Audio\Level1\Room1\scene1.wav" />
+    <None Include="Resources\Audio\Level1\Room2\scene2.wav" />
+    <None Include="Resources\Audio\Level1\Room1\itmattersnot.wav" />
+    <None Include="Resources\Audio\Level1\Room1\honor.wav" />
+    <None Include="Resources\Audio\Level1\Room1\why.wav" />
+    <None Include="Resources\Audio\Level1\Room1\whereami.wav" />
+    <None Include="Resources\Audio\Level1\Room1\soul-absorbing.wav" />
+    <None Include="Resources\Audio\Level1\Room1\getoutofthedungeon.wav" />
+    <None Include="Resources\Audio\Level1\Room1\saviorwdum.wav" />
+    <None Include="Resources\Audio\Level1\Room1\seersneversaid.wav" />
+    <None Include="Resources\Audio\Level1\Room1\what.wav" />
+    <None Include="Resources\Audio\placeholding_title.wav" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="placeholding_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\placeholding_title.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="getoutofthedungeon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\getoutofthedungeon.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="honor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\honor.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="itmattersnot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\itmattersnot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="saviorwdum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\saviorwdum.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="seersneversaid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\seersneversaid.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="soul_absorbing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\soul-absorbing.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="what" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\what.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="whereami" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\whereami.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="why" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\why.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scene1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\scene1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scene2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room2\scene2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bckfu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\bckfu.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="conduithistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\conduithistory.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="merelypb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room2\merelypb.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sosorry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room3\sosorry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="curedofdel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\curedofdel.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="moreeffortintoseers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\moreeffortintoseers.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="muchlikeabook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\muchlikeabook.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="negMorKillKing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\EndGame\negMorKillKing.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="negMorNotKillKing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\EndGame\negMorNotKillKing.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="notatyrant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\notatyrant.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="notinnocent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\notinnocent.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ohWhyisthat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\ohWhyisthat.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oldasdust" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\oldasdust.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PosMorKillKing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\EndGame\PosMorKillKing.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PosMorNotKillKing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\EndGame\PosMorNotKillKing.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="thegroundthrists" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room2\thegroundthrists.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="whyshouldkinfall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\whyshouldkinfall.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="youaretheone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\youaretheone.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beyondimagination" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\beyondimagination.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bloodyhell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room2\bloodyhell.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dontworry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room3\dontworry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="final_scene_des" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\final_scene_des.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="greatmount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room2\greatmount.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room3\hero.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ironfistfreedom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\ironfistfreedom.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="journeyseeyouwell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room1\journeyseeyouwell.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="moral_scene_des" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room3\moral_scene_des.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oldmansaiddes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\oldmansaiddes.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oldmansoulpower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\oldmansoulpower.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="payforyourlies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room2\payforyourlies.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rldniim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\rldniim.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="savedprisoner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room3\savedprisoner.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ulimsavior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\ulimsavior.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ulure" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\ulure.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="urbintbs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\urbintbs.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="youratyrant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\LevelFinal\youratyrant.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="guard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Graphics\guard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="king" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Graphics\king.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prisoner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Graphics\prisoner.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oldman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Graphics\oldman.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notsavedprisoner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Audio\Level1\Room3\notsavedprisoner.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
